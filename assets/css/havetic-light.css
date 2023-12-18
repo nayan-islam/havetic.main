@@ -1,0 +1,88 @@
+:root {
+  --havetic-black: #ffffff !important;
+  --havetic-black-rgb: 255, 255, 255 !important;
+  --havetic-white: #000000 !important;
+  --havetic-white-rgb: 0, 0, 0 !important;
+  --havetic-black2: #f1f1f1 !important;
+  --havetic-black2-rgb: 241, 241, 241 !important;
+  --havetic-black3: #e1e1e1 !important;
+  --havetic-black3-rgb: 225, 225, 225 !important;
+  --havetic-color: #5d5d5d !important;
+}
+.mobile-nav__content .main-menu__list li > a {
+  color: #000 !important;
+}
+.main-slider__one-item__shape-1,
+.main-slider__one-item__shape-2 {
+  background-color: #d9d9d9 !important;
+}
+
+.main-slider__one-item__shape-1 img,
+.main-slider__one-item__shape-2 img {
+  opacity: 0.7 !important;
+}
+
+.main-slider__one-item__shape-2 img{
+  width: 582px !important;
+  height: 745px;
+  object-fit: cover;
+}
+
+.client-carousel .client-carousel__one .client-carousel__one__item img:hover {
+  opacity: 0.6 !important;
+}
+
+.fact-one__item__icon,
+.service-one__item__icon {
+  color: #101010 !important ;
+}
+
+.havetic-btn,
+.video-one__banner__curved-circle-box .video-popup:hover,
+.project-one .havetic-btn:hover,
+.team-one__item__social-wrapper:hover .team-one__item__links,
+.sliding-text__list li,
+.main-footer__social a,
+.main-footer__about a,
+.cta-one__author .cta-one__icon,
+.testimonial-one__item__author-thumb span,
+.video-one__banner__curved-circle-box .curved-circle,
+.feature-one__item__content--icon {
+  color: var(--havetic-black) !important;
+}
+
+.blog-one__item__image span,
+.video-one__banner__curved-circle-box .video-popup {
+  background-color: var(--havetic-black) !important;
+}
+
+.blog-one__item__image span,
+.video-one__banner__curved-circle-box .video-popup {
+  color: var(--havetic-white) !important;
+}
+
+.testimonial-one__carousel.owl-carousel .owl-nav button,
+.team-one__item__links,
+.project-one .havetic-btn {
+  color: var(--havetic-color) !important;
+}
+
+.project-one__item__btn {
+  color: var(--havetic-black3) !important;
+}
+
+.main-footer {
+  background-color: #101010 !important;
+}
+
+.main-footer__social a {
+  background-color: var(--havetic-white) !important;
+}
+
+.main-footer__top {
+  border-bottom-color: RGBA(var(--havetic-black-rgb), 0.1) !important;
+}
+
+.team-one__item__links {
+  background-color: var(--havetic-black2) !important;
+}
